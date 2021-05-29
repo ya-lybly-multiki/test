@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>Test</title>
+</head>
+<body>
+<div class="container-content">
+    <div class="container__main">
+    <header class="page-header">
+        <div class="page-header__wrapper">
+            <a class="page-header__logo" href="#">
+                <img  src="/img/Logo 24px.svg">
+            </a>
+            <button class="page-header__toggle page-header__toggle_hidden" type="button">
+                <span class="page-header__toggle-bar">Меню</span>
+            </button>
+            <img class="page-header__" src="/img/avatar.svg">
+            <a class="page-header__link" href="#">
+                <img src="/img/chat.svg">
+            </a>
+            <a class="page-header__link" href="#">
+                <img src="/img/heart copy 8.svg">
+            </a>
+            <a class="page-header__link" href="#">
+                <img src="/img/message.svg">
+            </a>
+        </div>
+    </header>
+    <header class="page-header_breakpoint">
+        <div class="page-header__wrapper">
+            <div class="page-header__left-side">
+                <a class="page-header__logo" href="#">
+                    <img  src="/img/Logo 24px.svg">
+                </a>
+                <nav>
+                    <ul class="navigation">
+                        <li class="navigation__item">
+                            <a href="#">Стримы</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">Видео</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">Форум</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">Турниры</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">Новости</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#">Помощь</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="page-header__toggle page-header__toggle_hidden" type="button">
+                    <span class="page-header__toggle-bar">Меню</span>
+                </button>
+                <a class="page-header__search" href="#">
+                    <img  src="/img/Search.svg">
+                </a>
+            </div>
+        </div>
+            <div class="page-header__right-side">
+                <img class="page-header__icon" src="/img/avatar.svg">
+                <p class="page-header__login">F1bonacc1</p>
+                <button class="page-header__dropdown">
+                    <img src="/img/Arrow Dropdown.svg">
+                </button>
+                <a class="page-header__link" href="#">
+                    <img src="/img/heart copy 8.svg">
+                </a>
+                <a class="page-header__link" href="#">
+                    <img src="/img/message.svg">
+                </a>
+            </div>
+    </header>
+    <main class="page-main">
+     <div class="page-main__wrapper">
+        <section>
+            <a class="page-main__back">
+                <img src="/img/Arrow GoBack.svg">
+                Вернуться назад
+            </a>
+        <div class="menu__wrapper">
+            <div class="menu__limiter">
+                <ul class="menu menu_mobile">
+                    <li class="menu__item">
+                        <a href="#">Информация</a>
+                    </li>  
+                    <li class="menu__item menu__item_active">
+                        <a href="#">Безопасность</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#">Подключения</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#">Особое</a>
+                    </li>
+                </ul>
+           </div>
+        </div>
+        </section>
+        <form>
+            <div class="form__wrapper">
+                <h2 class="form__title">Сменить пароль</h2>
+                <p class="form__subtitle">Надежный пароль повышает безопасность</p>
+            <div class="form__container">     
+                <label class="form__label" for="field-password">Текущий пароль</label>
+                    <input class="form__field form__field_password" type="password" id="field-password" placeholder="************" required>
+                    <span class="form__show-password">
+                        <img class="form__icon form__icon_password" src="/img/eye.svg">
+                    </span>
+                <a class="form__link_forgot">
+                    <span class="form__popup">Забыли пароль?</span>
+                </a> 
+            </div>
+            <div class="form__container">
+                <label class="form__label" for="field-password">Новый пароль</label>
+                <input class="form__field" type="password" id="field-password" placeholder="************" required>
+                <span class="form__show-password">
+                    <img class="form__icon" src="/img/eye.svg">
+                </span>
+            </div>
+            <div class="form__container">
+                <label class="form__label" for="field-password">Повторите новый пароль</label>
+                <input class="form__field" type="password" id="field-password" placeholder="************" required>
+                <span class="form__show-password">
+                    <img class="form__icon" src="/img/eye.svg">
+                </span>
+            </div>
+            <div class="form__button-container">
+                <button class="button">Сохранить изменения</button>
+            </div>
+        </div>
+            <div class="form__wrapper">
+              <h2 class="form__title form__title_email">Сменить почту</h2>
+              <div class="form__container">
+                <label class="form__label" for="field-email">Новая почта</label>
+                <input class="form__field " type="email" id="field-email" placeholder="mail@goodgame.ru" required>
+            </div>
+                <div class="form__container">
+                    <label class="form__label" for="field-password">Текущий пароль</label>
+                    <input class="form__field" type="password" id="field-password" placeholder="************" required>
+                    <span class="form__show-password">
+                        <img class="form__icon" src="/img/eye.svg">
+                    </span>
+                </div>
+                <div class="form__button-container">
+                    <button class="button">Сохранить изменения</button>
+                </div>
+             </div>
+         
+            <div class="form__wrapper">
+                    <h2 class="form__title form__title_mobile">Новый мобильный телефон</h2>
+                    <div class="form__container">
+                        <label class="form__label" for="field-tel">Мобильный номер без “+”</label>
+                        <input class="form__field" type="tel" id="field-tel" placeholder="79998884455" required>
+                    </div>
+                    <div class="form__button-container">
+                        <button class="button">Сохранить изменения</button>
+                    </div>
+            </div>
+        </form>
+     </div>
+    </main>
+</div>
+     <section class="panel">
+          <div class="panel__wrapper">  
+
+        </div>
+    </section>
+</div>
+    <div class="popup__form_forgot">
+        <div class="popup__window">
+            <div class="popup__close"></div>
+            <h2 class="popup__title">Восстановление пароля</h2>
+            <form class="popup__forgot">
+                <p class="popup__subtitle">Email или имя пользователя</p>
+                <label class="popup__label" >
+                <input class="popup__field" type="email"  placeholder="mymail@gmail.com">
+                </label>
+                <div class="popup__button-container">
+                    <button class="button button_forgot">Восстановить</button>
+                </div>
+            </form>
+        </div>
+        <div class="popup__window">
+            <div class="popup__close"></div>
+            <h2 class="popup__title">Восстановление пароля</h2>
+            <p class="popup__subtitle popup__subtitle_bg">На вашу почту отправлена инструкция по восстановлению пароля</p>
+        </div>
+    </div>
+</body>
+</html>

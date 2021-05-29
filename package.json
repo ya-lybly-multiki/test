@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start",
+    "start-source": "gulp start-source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya-lybly-multiki/cat-energy.git"
+  },
+  "author": "Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ya-lybly-multiki/cat-energy/issues"
+  },
+  "homepage": "https://github.com/ya-lybly-multiki/cat-energy#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "plumber": "^0.4.8",
+    "postcss": "^8.2.9",
+    "sourcemap": "^0.1.0"
+  }
+}

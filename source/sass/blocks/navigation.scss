@@ -1,0 +1,28 @@
+.navigation {
+    display: none;
+}
+
+@media (min-width:$desktops-2) {
+    .navigation {
+        display: flex;
+    }
+    .navigation__item {
+        padding-right: 24px;
+        a {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        }
+    }
+}
+
+@media (min-width:$desktops-4) {
+    .navigation__item {
+        padding: 0 12px;
+    }
+    
+}

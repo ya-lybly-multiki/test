@@ -1,0 +1,32 @@
+@media (min-width:$phones) {
+    .page-main__back {
+        display: none
+    }
+}
+
+@media (min-width:$tablets){
+    .page-main__back {
+        display: flex;
+        align-items: center;
+        max-width: 740px;
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 24px;
+        color:#75ADFC ;
+    }
+    .page-main__wrapper{
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 740px;
+    }
+}
+
+@media (min-width:$desktops-4) {
+  .page-main__back {
+      padding-left: 9px;
+  }  
+      
+}

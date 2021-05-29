@@ -1,0 +1,110 @@
+
+.popup__window {
+    background-color: #171d30;
+    width: 100%;
+    max-width: 768px;
+    padding: 24px;
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 210px;
+    min-width: 360px;
+}
+
+.popup__close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: rgba(68,83,126,.5);
+    border-radius: 50%;
+    top: 34px;
+    right: 24px;
+    position: absolute;
+}
+
+.popup__close::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #C4C4C4;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.popup__close::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #C4C4C4;
+    transform: rotate(-45deg);
+}
+
+.popup__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF ;
+}
+
+
+.popup__subtitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.popup__subtitle_bg {
+    background: rgba(68, 83, 126, 0.5);
+    position: relative;
+    max-width: 320px;
+}
+
+.popup__subtitle_bg::before {
+    content: "";
+    width: 4px;
+    height: 47px;
+    background: #53709B;
+    border-radius: 2px 0px 0px 2px;
+    position: absolute;
+    left: 0;
+}
+
+.popup__field {
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 7px 11px;
+    border: 1px solid transparent;
+    background-color: #0d1221;
+    border-radius: 2px;
+    margin: 0 0 24px;
+    padding: 7px 15px;
+}
+
+.popup__button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width:$tablets) {
+    .popup__title {
+        font-size: 22px;
+    }
+    .popup__subtitle_bg {
+        max-width: 480px;
+    }
+    .popup__subtitle_bg::before {
+        height: 24px;
+    }
+}

@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+
+    
+  body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    background-image: linear-gradient(rgba(13, 18, 33, 0.9) 0%, rgb(13, 18, 33) 100%), url(/img/bg-test.jpg);
+    background-size: auto 320px;
+    background-repeat: repeat-x;
+    background-color: #0d1221;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+li {
+list-style-type:none;
+}
+
+ul {
+  padding: 0;
+}
+

@@ -1,0 +1,14 @@
+.panel__wrapper {
+    display: none;
+}
+
+@media (min-width:$desktops-1) {
+    .panel__wrapper {
+        display: block; 
+        background: black;
+        width: 350px;
+        height: 100%;
+    }   
+}
+
+

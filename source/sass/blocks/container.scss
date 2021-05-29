@@ -1,0 +1,29 @@
+
+@media (min-width:$desktops-1) {
+    .container__main {
+      width: 100%;
+      min-width: 842px;
+    } 
+    .container-content {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:$desktops-2) {
+    .container__main {
+        min-width: 1016px;
+    }
+}
+
+@media (min-width:$desktops-3) {
+    .container__main {
+        min-width: 1250px;
+    }
+}
+
+@media (min-width:$desktops-4) {
+    .container__main {
+        min-width: 1520px;
+    }
+}
