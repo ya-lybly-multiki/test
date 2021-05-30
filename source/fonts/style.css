@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?u0gbrp');
+  src:  url('fonts/icomoon.eot?u0gbrp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?u0gbrp') format('truetype'),
+    url('fonts/icomoon.woff?u0gbrp') format('woff'),
+    url('fonts/icomoon.svg?u0gbrp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow-Dropdown:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-Arrow-GoBack:before {
+  content: "\e901";
+  color: #75adfc;
+}
+.icon-avatar:before {
+  content: "\e902";
+}
+.icon-chat .path1:before {
+  content: "\e903";
+  color: rgb(117, 173, 252);
+}
+.icon-chat .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-eye:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-heart-copy-8:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-Logo-24px:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-message:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-Search:before {
+  content: "\e909";
+  color: #fff;
+}

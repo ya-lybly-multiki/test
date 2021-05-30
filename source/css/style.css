@@ -540,3 +540,51 @@ ul {
 @media (min-width: 1920px) {
   .container__main {
     min-width: 1520px; } }
+
+@font-face {
+  font-family: 'icomoon';
+  font-display: swap;
+  src: url("../../fonts/icomoon/fonts/icomoon.eot?ver=372");
+  src: url("../../fonts/icomoon/fonts/icomoon.eot?rnd=372#iefix") format("embedded-opentype"), url("../../fonts/icomoon/fonts/icomoon.woff?ver=372") format("woff"), url("../../fonts/icomoon/fonts/icomoon.ttf?ver=372") format("truetype"), url("../../fonts/icomoon/fonts/icomoon.svg?rnd=372#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon.icon-Arrow-Dropdown:before {
+  content: "\e900";
+  color: #fff; }
+
+.icon.icon-Arrow-GoBack:before {
+  content: "\e901";
+  color: #75adfc; }
+
+.icon.icon-avatar:before {
+  content: "\e902"; }
+
+.icon.icon-chat .path1:before {
+  content: "\e903";
+  color: #75adfc; }
+
+.icon .icon-chat .path2:before {
+  content: "\e904";
+  color: #fff;
+  margin-left: -1em; }
+
+.icon.icon-eye:before {
+  content: "\e905";
+  color: #fff; }
+
+.icon.icon-heart-copy-8:before {
+  content: "\e906";
+  color: #fff; }
+
+.icon.icon-Logo-24px:before {
+  content: "\e907";
+  color: #fff; }
+
+.icon.icon-message:before {
+  content: "\e908";
+  color: #fff; }
+
+.icon.icon-Search:before {
+  content: "\e909";
+  color: #fff; }
